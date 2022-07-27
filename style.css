@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  height: 100%;
+
+  width: 100%;
+  position: relative;
+  /*background-image: url("/Users/michaelgalan/Desktop/SUMMER2022/images /sevenWonders/sevenWonders.jpeg");*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*border: 100px solid rgba(0, 0, 0, 0.2);*/
+  outline: 120px solid rgba(0, 0, 0, 0.5);
+  outline-offset: -120px;
+
+  transition: 0.5s ease-out;
+}
+
+#leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 55px;
+  transform: translateY(-50%);
+  height: 75px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: solid 2px rgb(265, 165, 0);
+  border-right: none;
+}
+
+#leftArrowIcon {
+  font-size: 35px;
+  color: white;
+}
+
+#rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 55px;
+  transform: translateY(-50%);
+  height: 75px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: solid 2px rgb(265, 165, 0);
+  border-left: none;
+}
+
+#rightArrowIcon {
+  font-size: 35px;
+  color: white;
+}
+/*#layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  opacity: 0;
+  z-index: 1;
+}*/
